@@ -20,6 +20,7 @@
 		75A038C62C5E6E0800284164 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		75A038CA2C5E70D900284164 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		75A038CD2C5E720600284164 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		75A038D22C5E834A00284164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		75A5EFF42C5E539B00F9E758 /* CoffeeAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A5EFF72C5E539B00F9E758 /* CoffeeAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		75A5EFF92C5E539B00F9E758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		75A5EFF62C5E539B00F9E758 /* CoffeeAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				75A038D22C5E834A00284164 /* Info.plist */,
 				75A038CC2C5E71E000284164 /* Services */,
 				75A038C52C5E6DEA00284164 /* Models */,
 				75A5EFF72C5E539B00F9E758 /* CoffeeAppSwiftUIApp.swift */,
@@ -303,6 +305,7 @@
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -332,6 +335,7 @@
 				DEVELOPMENT_TEAM = F33K9P37S6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoffeeAppSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
