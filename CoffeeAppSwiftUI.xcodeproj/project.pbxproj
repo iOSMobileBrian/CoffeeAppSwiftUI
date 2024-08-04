@@ -10,6 +10,7 @@
 		75A038C72C5E6E0800284164 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A038C62C5E6E0800284164 /* Coffee.swift */; };
 		75A038CB2C5E70D900284164 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A038CA2C5E70D900284164 /* Order.swift */; };
 		75A038CE2C5E720600284164 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A038CD2C5E720600284164 /* WebService.swift */; };
+		75A038D52C5F034100284164 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A038D42C5F034100284164 /* OrderListViewModel.swift */; };
 		75A5EFF82C5E539B00F9E758 /* CoffeeAppSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5EFF72C5E539B00F9E758 /* CoffeeAppSwiftUIApp.swift */; };
 		75A5EFFA2C5E539B00F9E758 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A5EFF92C5E539B00F9E758 /* ContentView.swift */; };
 		75A5EFFC2C5E539D00F9E758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A5EFFB2C5E539D00F9E758 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		75A038CA2C5E70D900284164 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		75A038CD2C5E720600284164 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		75A038D22C5E834A00284164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A038D42C5F034100284164 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 		75A5EFF42C5E539B00F9E758 /* CoffeeAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A5EFF72C5E539B00F9E758 /* CoffeeAppSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeAppSwiftUIApp.swift; sourceTree = "<group>"; };
 		75A5EFF92C5E539B00F9E758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		75A038D32C5F030200284164 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75A038D42C5F034100284164 /* OrderListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		75A5EFEB2C5E539B00F9E758 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		75A5EFF62C5E539B00F9E758 /* CoffeeAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				75A038D32C5F030200284164 /* ViewModels */,
 				75A038D22C5E834A00284164 /* Info.plist */,
 				75A038CC2C5E71E000284164 /* Services */,
 				75A038C52C5E6DEA00284164 /* Models */,
@@ -167,6 +178,7 @@
 				75A5EFFA2C5E539B00F9E758 /* ContentView.swift in Sources */,
 				75A5EFF82C5E539B00F9E758 /* CoffeeAppSwiftUIApp.swift in Sources */,
 				75A038CB2C5E70D900284164 /* Order.swift in Sources */,
+				75A038D52C5F034100284164 /* OrderListViewModel.swift in Sources */,
 				75A038CE2C5E720600284164 /* WebService.swift in Sources */,
 				75A038C72C5E6E0800284164 /* Coffee.swift in Sources */,
 			);
